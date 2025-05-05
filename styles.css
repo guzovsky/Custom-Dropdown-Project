@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/* Reset margin/padding and enforce box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base font scaling */
+html {
+    font-size: 16px;
+}
+
+/* Body styling */
+body {
+    text-align: center;
+    padding: 3rem;
+    background-color: #295744;
+    color: #ffffff;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+}
+
+/* Header styling */
+.title {
+    display: inline-block;
+    padding: 0.1rem 1.4rem;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Main container for dropdowns */
+.dropdown-container {
+    padding: 1rem;
+    margin: 1rem auto 0;
+    max-width: 27rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Description above dropdowns */
+.description {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+/* Dropdown wrapper */
+.dropdown {
+    width: 90%;
+    margin: 0 auto 0.7rem;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #2c634d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Individual dropdown styles */
+select {
+    width: 100%;
+    height: 2rem;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    background-color: #2c634d;
+    border: none;
+}
+
+/* Remove browser outlines on focus */
+select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Button container */
+.button {
+    width: 20%;
+    margin: 1rem auto 0.6rem;
+    height: 30px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    transition: background-color 0.6s ease;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #73c2a1;
+}

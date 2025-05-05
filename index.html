@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Custom Dropdown Project</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- Title section -->
+    <header class="title">
+      <h1>Custom Dropdown Project</h1>
+    </header>
+
+    <!-- Dropdown and result section -->
+    <main class="dropdown-container">
+
+      <!-- Instructional text -->
+      <div class="description">
+        <p>Please select an item:</p>
+      </div>  
+
+      <!-- Dropdown elements -->
+      <div class="dropdown">
+        <!-- First dropdown: general item -->
+        <select id="selectedItem" required>
+          <option value="" disabled selected hidden>Select an item</option>
+          <option value="first-item">First Item</option>
+          <option value="second-item">Second Item</option>
+          <option value="third-item">Third Item</option>
+          <option value="fourth-item">Fourth Item</option>
+        </select>
+
+        <!-- Second dropdown: fruit -->
+        <select id="selectedFruit" required>
+          <option value="" disabled selected hidden>Select a fruit</option>
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="cherry">Cherry</option>
+        </select>
+      </div>
+
+      <!-- Submit button -->
+      <div class="button">
+        <button onclick="showSelection()">Send</button>
+      </div>
+
+      <!-- Display user selection -->
+      <div class="result-shown">
+        <p id="result"></p>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- JavaScript functionality -->
+  <script src="script.js"></script>
+</body>
+</html>
